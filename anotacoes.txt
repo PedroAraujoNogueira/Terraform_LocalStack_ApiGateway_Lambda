@@ -1,0 +1,14 @@
+
+INSTALAÇÃO DO localstack
+
+Instalar python (Python 3.6 até 3.9 suportado)
+Instalar pip (Gerenciador de pacotes Python -> sudo apt install python3-pip)
+Instalar Docker.
+
+INSTALAÇÃO DO TERRAFORM NO LINUX(UBUNTU/DEBIAN)
+
+1. curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+2. sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+3. sudo apt-get update && sudo apt-get install terraform
+
+INSTALAÇÃO DO AWS CLI
