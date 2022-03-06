@@ -11,8 +11,8 @@ Docker, tente usar o Docker como um usuário não root. https://docs.docker.com/
 -> Digite no terminal(na Pasta raiz do projeto) "terraform apply" para aplicar os scripts do terraform e digite "yes" para prosseguir com o comando.  
 
 ### Descrição do projeto:  
-Nesse projeto vamos utilizar o localstack para desenvolver scripts terraform para nossa aplicação. Esses scripts vão realizar o provisionamento dos seguintes recursos:  
--> Um Lambda, com uma aplicação "echo server" (que também deve ser deployada pelo terraform).  
+Esse projeto utiliza o LocalStack e scripts Terraform para provisionamento da infraestrutura. Esses scripts vão realizar o provisionamento dos seguintes recursos:  
+-> Um Lambda, com uma aplicação "echo server" (que também deve ser deployada pelo Terraform).  
 -> Um API Gateway.  
 
 ### Requisitos de software e bibliotecas:  
